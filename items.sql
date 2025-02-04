@@ -38520,4 +38520,5 @@ VALUES
 (51704,'Lasherweave Cover',251,4,1,80,4,2,2,457),
 (51705,'Lasherweave Trousers',251,4,7,80,4,2,2,457);
 
-UPDATE items SET type = 5 WHERE type = 20; 
+UPDATE items SET type = 5 WHERE type = 20;
+UPDATE items SET type = 26 WHERE type = 25; 
