@@ -1,6 +1,7 @@
 # talents/talent_utils.py
 import logging
 from typing import Union
+from enum import Enum
 
 logger = logging.getLogger(__name__)
 

@@ -2,6 +2,7 @@
 import discord
 from discord.ext import commands
 import asyncio
+import aiohttp
 import logging
 from typing import List, Dict, Optional
 from table2ascii import table2ascii as t2a, PresetStyle
