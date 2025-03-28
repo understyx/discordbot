@@ -254,7 +254,7 @@ class StalkCog(commands.Cog):
                 logger.exception(f"Error in stalk command for {character_name}-{norm_realm}: {e}")
                 await ctx.send(embed=create_error_embed(description="An unexpected error occurred while processing the stalk command."))
 
-    @commands.command(aliases=['stalkmulti', 'querymulti', 'multistalk'])
+    @commands.command(aliases=['stalkmulti', 'querymulti'])
     async def multistalk(self, ctx: commands.Context, *args: str):
         """Shows basic GearScore, Enchants, Gems, Spec, Profs for multiple characters (Default: Icecrown)."""
         if not args:
